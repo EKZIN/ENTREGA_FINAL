@@ -1,0 +1,207 @@
+body{
+    background-color: #8FD5DB;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+#not{
+    display: flex;
+}
+
+#not_2{
+    margin: 30px;
+    padding: 30px;
+    font-size: 40px;
+    color: #3B3735;
+    background-color: #F0525B;
+    border-radius: 10px;
+}
+
+#not_2:hover{
+    background-color: #F03239;
+    font-size: 50px;
+}
+
+#container_2{
+    border-radius: 10px;
+    margin: 75px;
+    padding: 5px;
+    width: 88%;
+    background-color: #3790E6;
+    display: flex;
+}
+
+.box_2{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+.box_1{
+    margin: 30 500px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+#name{
+    background-color: #65F599;
+    color: #CCE08C;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+div a{
+    color: blue;
+}
+
+#header{
+    background-color: white;
+}
+
+#banner{
+    background-color: #3D8FDB;
+    color: #5F5A63;
+    margin: 15px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#menu{
+    display: flex;
+    font-size: 30px;
+}
+
+#menu div{
+    padding: 5px 135px;
+    color: #2C2B38;
+    background-color: #58FAF4;
+}
+
+#menu div a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu div div:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#qf{
+    margin: 100px;
+    background-color: #0080FF;
+    font-size: 100px;
+}
+
+#lendas{
+    background-image: url(../img/fundoO.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+
+#lendas h2{
+    background-color: #495E6B;
+    border-radius: 10px;
+}
+
+#lendas h3{
+    background-color: #2D6A75;
+    width: 500px;
+    text-align: center;
+    font-size: 45px;
+    margin: 0 750px;
+    border-radius: 7px;
+}
+
+#lendas h4{
+    padding: 5px;
+    font-size: 35px;
+}
+
+.box_4{
+    margin: 30 500px;
+    padding: 15px;
+    text-align: center;
+    background-color: #1A4E57;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.box_4 a{
+    color: #022024;
+}
+
+@media screen and (max-width: 1440px){
+    #container{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #menu{
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 768px){
+    img{
+        width: 100%;
+    }
+
+    #container{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #menu{
+        display: initial;
+    }
+
+    #menu div{
+        padding: 0px;
+    }
+
+    #menu div a{
+        text-align: center;
+    }
+
+    #name{
+        font-size: 30px;
+    }
+
+    #banner{
+        font-size: 18px;
+    }
+
+    .box_1{
+        width: 78%;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    .box_4{
+        width: 78%;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    #lendas h3{
+        margin: 10px 65px;
+        width: 250px;
+        text-align: center;
+        font-size: 30px;
+    }
+}
